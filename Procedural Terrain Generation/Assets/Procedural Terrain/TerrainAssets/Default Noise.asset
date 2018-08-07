@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c102ace16d312e438654a7997eedb9a, type: 3}
+  m_Name: Default Noise
+  m_EditorClassIdentifier: 
+  autoUpdate: 1
+  normalizeMode: 0
+  noiseScale: 50
+  octaves: 5
+  persistance: 0.547
+  lacunarity: 2
+  seed: 2
+  offset: {x: 0, y: 0}
+  rollwaySettings:
+    generateRollway: 0
+    xPos: 0.5
+    yPos: 0.5
+    xLenght: 0.9
+    yLenght: 0.2
+    smoothRadius: 9
+    smoothIntensity: 3
